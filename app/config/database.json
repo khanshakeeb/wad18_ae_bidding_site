@@ -2,6 +2,7 @@
   "development": {
     "username": "root",
     "password": "123456",
+<<<<<<< HEAD
     "database": "bidsite",
     "host": "localhost",
     "dialect": "mysql"
@@ -18,6 +19,24 @@
     "password": "123456",
     "database": "bidsite",
     "host": "localhost",
+=======
+    "database": "testweb",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "123456",
+    "database": "testweb",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "123456",
+    "database": "testweb",
+    "host": "127.0.0.1",
+>>>>>>> 67722445cf46c9112d3f120dec5af6aa202b8d2f
     "dialect": "mysql"
   }
 }
