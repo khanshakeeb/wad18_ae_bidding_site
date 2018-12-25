@@ -2,7 +2,7 @@ const AuthController = require('./controllers/AuthController');
 const SiteConroller = require('./controllers/SiteController');
 
 
-module.exports= function(app){
+module.exports= function(app, passport){
     // app.get('/', myController.hello);
     // app.get('/hello', myController.hello);
 

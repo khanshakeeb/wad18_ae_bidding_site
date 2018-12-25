@@ -1,7 +1,7 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const files = sequelize.define('files', {
-    id: DataTypes.INTEGER,
+   
     status: DataTypes.STRING,
     published_at: DataTypes.DATE,
     updated_at: DataTypes.DATE,
